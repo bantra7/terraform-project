@@ -1,19 +1,9 @@
-variable "ram" {
-  type        = string
-  default     = "2"
-  description = "RAM disponible"
+variable "instance_name" {
+  type = string
+  description = "Nom de l'instance"
 }
-variable "cpu" {
-  type        = string
-  default     = "1 vCPU"
-  description = "CPU disponible"
-}
-variable "stockage" {
-  type        = string
-  default     = "10"
-  description = "Stockage disponible"
-}
-variable "image_os" {
+variable
+variable "instance_image" {
   type        = string
   default     = "ubuntu 18.04"
   description = "OS utilisé"
